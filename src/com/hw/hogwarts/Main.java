@@ -5,7 +5,7 @@ public class Main {
 
         Griffindor harryPotter = new Griffindor("Harry Potter", 100, 100, 100, 100, 60);
         Griffindor hermioneGranger = new Griffindor("Hermione Granger", 90, 80, 100, 50, 90);
-        Griffindor ronUizly = new Griffindor("Ron Uizly", 50, 50, 60, 80, 40);
+        Griffindor ronUizly = new Griffindor("Ron Uizly", 55, 66, 60, 80, 40);
 
         Hufflepuff zaharijaSmith = new Hufflepuff("Zaharija Smith", 75, 76, 74,73,72);
         Hufflepuff sedricDiggory = new Hufflepuff("Sedric Diggory", 65, 66, 64,63,62);
@@ -22,5 +22,6 @@ public class Main {
         dracoMalfoy.compareScore(zaharijaSmith);
         harryPotter.compareScore(hermioneGranger);
         hermioneGranger.compareScore(dracoMalfoy);
+        ronUizly.compareScore(justinFinchFlechly);
     }
 }
